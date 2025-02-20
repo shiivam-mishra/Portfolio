@@ -58,7 +58,7 @@ const Hero = () => {
               onClick={(e) => {
                 e.preventDefault();
                 window.open(
-                  "https://drive.google.com/file/d/1p7FeZ-EpwAEEhBRiE1y6VMtXZlYA6r98/view",
+                  "https://drive.google.com/file/d/1K8xjoJRPf8ZRjILlWgm16HgczRnvn6yF/view?usp=sharing",
                   "_blank"
                 );
               }}
@@ -66,9 +66,7 @@ const Hero = () => {
               RESUME
             </button>
 
-            <motion.button variants={textVariants} id="Contact">
-              Contact Me
-            </motion.button>
+            <motion.button variants={textVariants}>Contact Me</motion.button>
           </motion.div>
           <motion.img
             variants={textVariants}
